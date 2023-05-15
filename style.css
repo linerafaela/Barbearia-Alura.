@@ -1,7 +1,9 @@
 body{
+    background-color: white;
+}
+.principal{
     background-color: #ccc;
 }
-
 #banner{
     width: 100%;
 }
@@ -22,4 +24,12 @@ p{
 
 em strong{
     color: red;
+}
+
+.itens{
+    font-style: italic;
+}
+
+.beneficios{
+    background-color: white;
 }
