@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Produtos - Barbearia Alura </title>
+    <title>Contato - Barbearia Alura </title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -23,28 +23,30 @@
         
         
     </header>
+
     <main>
-        <ul class="produtos"> 
-             <li>
-                <h2>cabelo</h2>
-                <img src="cabelo.jpg" alt="">
-                <p class="produto-descriçao">Na tesoura ou na máquina como o cliente preferir</p>
-                <p class="produto-preço">R$25,00</p>
-             </li>
-             <li>
-                <h2>barba</h2>
-                <img src="barba.jpg" alt="">
-                <p class="produto-descriçao">Corte e desenho profissional de barba</p>
-                <p class="produto-preço">R$18,00</p>
-             </li>
-             <li>
-                <h2>cabelo+barba</h2>
-                <img src="cabelo+barba.jpg" alt="">
-                <p class="produto-descriçao">Pacote completo de cabelo e barba</p>
-                <p class="produto-preço">R$35,00</p>
-             </li>
-        </ul>
+    <form>
+        <label for="nomesobrenome">Nome e sobrenome</label>
+        <input type="text" id="nomesobrenome">
+
+        <label for="email">Email</label>
+        <input type="text" id="email"> 
+
+        <label for="telefone">Telefone</label>
+        <input type="text" id="telefone">
+
+        <label for="mensagem">Mensagem</label>
+        <textarea name="Mensagem" id="mensagem" cols="70" rows="10"></textarea>
+
+
+        <label for="radio-email">Email</label>
+        <input type="radio" value="email" >
+
+        <input type="submit" value="Enviar formulário" >
+    </form>
+
     </main>
+
 
     <footer>
         <img src="logo-branco.png" alt="">

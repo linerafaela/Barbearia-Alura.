@@ -1,48 +1,111 @@
-#banner {
-	width:100%;
+header{
+    background-color: #ccc;
+    padding: 20px 0;
 }
 
-.principal{
-	background: #CCCCCC;
-	padding: 30px;
+.caixa{
+  width: 940px;
+  position: relative;
+  margin: 0 auto;
+}
+  
+
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+
 }
 
-.titulo-principal {
-	padding-left: 20px;
+nav li{
+    display: inline-block;
+    margin: 0 0 0 15px;;
 }
 
-.titulo-centralizado {
-	text-align: center
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
 }
 
-p {
-	text-align: center;
+nav a:hover {
+    color: #c78c19;
+    text-decoration: underline;
 }
 
-#missao {
-	font-size: 20px
+.produtos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
 }
 
-em strong {
-	color: #FF0000;
+.produtos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
 }
 
-.itens {
-	font-style: italic
+.produtos li:hover {
+    border-color: #c78c19;
 }
 
-.beneficios {
-	background: #FFFFFF;
-	padding: 20px;
+.produtos li:active{
+    border-color: #088c19;
 }
 
-ul {
-	display: inline-block;
-	vertical-align: top;
-	width: 20%;
-	margin-right: 15%;
+.produtos li:hover h2 {
+    font-size: 40px;
 }
 
-.imagembeneficios {
-	width: 50%;
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produto-descriçao {
+    font-size: 18px;
+}
+
+.produto-preço{
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px 0 0;
+}
+
+footer {
+    text-align: center;
+    background: url("bg.jpg");
+    padding: 40px 0px;
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px 0 0;
+}
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form label {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+form input {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
 }
