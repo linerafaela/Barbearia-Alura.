@@ -97,15 +97,39 @@ main {
     margin: 0 auto;
 }
 
-form label {
+form label, form p {
     display: block;
     font-size: 20px;
     margin: 0 0 10px;
 }
 
-form input {
+.input-padrao {
     display: block;
     margin: 0 0 20px;
     padding: 10px 25px;
     width: 50%;
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+
+p {
+    color: red;
+}
+
+form p {
+    color: blue;
+}
+
+.teste {
+    color: yellow;
+}
+
+p.teste {
+    color: orange;
+}
+
+#teste {
+    color: pink;
 }
