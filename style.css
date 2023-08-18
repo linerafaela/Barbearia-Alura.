@@ -1,5 +1,5 @@
 header{
-    background-color: #ccc;
+    background-color: plum;
     padding: 20px 0;
 }
 
@@ -19,12 +19,12 @@ nav{
 
 nav li{
     display: inline-block;
-    margin: 0 0 0 15px;;
+    margin: 0 0 0 27px;;
 }
 
 nav a{
     text-transform: uppercase;
-    color: black;
+    color: purple;
     font-size: 22px;
     font-weight: bold;
     text-decoration: none;
@@ -87,7 +87,7 @@ footer {
 }
 
 .copyright {
-    color: #FFFFFF;
+    color: #b3228ee8;
     font-size: 13px;
     margin: 20px 0 0;
 }
