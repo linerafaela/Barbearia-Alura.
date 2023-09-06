@@ -43,7 +43,9 @@ nav a:hover {
 
 .produtos li{
     display: inline-block;
-    text-align: center;
+    text-alig.enviar:houver {
+        background: darkorange;
+    }n: center;
     width: 30%;
     vertical-align: top;
     margin: 0 1.5%;
@@ -116,5 +118,18 @@ form label, form legend {
 }
 
 .enviar {
-    width: 40%;
+    width:40%;
+    padding: 3px 0;
+    background: orange;
+    color: rgb(114, 11, 114);
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all; 
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background: plum;
 }
