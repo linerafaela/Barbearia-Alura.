@@ -167,10 +167,14 @@ color: #c38ce2;
 
 .principal p {
     margin: 0 0 1em;
+    font-family: 'Noto Serif', serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Playpen Sans', cursive;
+font-family: 'Sometype Mono', monospace;
 }
 
 .principal strong {
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 .principal em {
