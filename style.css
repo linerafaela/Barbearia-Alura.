@@ -158,7 +158,12 @@ td, th {
     font-size: 2em;
     margin: 1em 0 1em;
     clear: left;
+    font-family: 'Noto Serif', serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Playpen Sans', cursive;
+color: #c38ce2;
 }
+
 
 .principal p {
     margin: 0 0 1em;
