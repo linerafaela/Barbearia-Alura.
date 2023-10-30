@@ -190,3 +190,9 @@ font-family: 'Sometype Mono', monospace;
 .imagembeneficios {
     width: 60%;
 }
+
+.mapa p {
+    margin: 0 0 2em;
+    margin: 25px;
+    text-align: center;
+}
